@@ -11,6 +11,6 @@
 - 没人能让我输，除非我不想赢！
 - 奥利给，干了，我们就还是兄弟！
 
-[GitHub](https://lwp520.github.io/)
+[GitHub](https://github.com/lwp520)
 [Gitee](https://gitee.com/dont-disturb-my-sleep/projects)
 [Home](README)
