@@ -4,4 +4,5 @@
   * [什么是计算机](study/index.md)
 * [个人心得](personal/)
   * [个人心得一](personal/index.md)
+  * [个人心得二](personal/index1.md)
    
