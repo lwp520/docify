@@ -2,6 +2,8 @@
 * [文档指南](guide)
 * [学习文档](study/)
   * [什么是计算机](study/index.md)
+* [java基础](javase/)
+* [虚拟机](jvm/structure.md)
 * [个人心得](personal/)
   * [个人心得一](personal/index.md)
   * [个人心得二](personal/index1.md)
