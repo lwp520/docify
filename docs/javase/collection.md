@@ -24,9 +24,16 @@ Java的泛型是伪泛型，这是因为Java在编译期间，所有的泛型信
 1、<font color="red">无边界的通配符</font>（Unbounded Wildcards）<br/>
 采用 <?> 的形式，比如 List<?>，无边界的通配符的主要作用就是让泛型能够接受未知类型的数据。<br/>
 
+
+List<?> list 表示 list 是持有某种特定类型的 List，但是不知道具体是哪种类型，因此时不安全的，即不能添加数据。但是可以用来取数据。
+T通常用于泛型类和泛型方法的定义。
+
+？通常用于泛型方法的调用代码和形参，不能用于定义类和泛型方法。
+
 2、<font color="red">固定上边界的通配符</font>（Upper BoundedWildcards）<br/>
 
 使用固定上边界的通配符的泛型，就能够接受指定类及其子类类型的数据。要声明使用该类通配符，采用 <font color="red"><? extends E></font> 的形式，这里的 E 就是该泛型的上边界。<br/>
+
 
 注意：这里虽然用的是 extends 关键字，却不仅限于继承了父类 E 的子类，也可以代指实现了接口 E 的类。<br/>
 3、<font color="red">固定下边界的通配符</font>（Lower Bounded Wildcards）<br/>
