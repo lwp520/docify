@@ -35,3 +35,5 @@ b.如果这个线程在等待当前函数返回时，没有执行其他消息处
 
 
 <font color="red">同步/异步关注的是消息通知的机制，而阻塞/非阻塞关注的是程序（线程）等待消息通知时的状态。</font>
+
+https://blog.csdn.net/m0_38109046/article/details/89449305?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1-89449305-blog-81318189.pc_relevant_multi_platform_whitelistv1&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1-89449305-blog-81318189.pc_relevant_multi_platform_whitelistv1&utm_relevant_index=1
